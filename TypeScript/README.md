@@ -1,4 +1,4 @@
-white_check_mark: 타입스크립트
+## :white_check_mark: 타입스크립트
 자바스크립트 문법을 그대로 사용 + 타입을 지정해줄 수 있는 자바스크립트 업그레이드 버전
 자바스크립트는 Dynamic Typing(5-’3’도 가능함) 가능
 하지만 프로젝트 사이즈가 커지면 단점이 됨 (자유도가 높고, 유연하기 때문)
@@ -8,12 +8,13 @@ white_check_mark: 타입스크립트
 브라우저는 .ts파일을 읽지 못함
 .ts파일을 .js파일로 변환해주어야함
 tsc -w 명령어 입력! (자동으로 자바스크립트 파일로 변환되어 생성)
-:white_check_mark: 사용법
+## :white_check_mark: 사용법 
 node.js설치
 npm install -g typescript
 .ts파일 생성
 tsconfig.json파일 생성 : ts에서 js컴파일 시 옵션 설정하는 파일
-:white_check_mark: 간단한 문법
+## :white_check_mark: 간단한 문법
+```
 **// 간단한 변수 타입 지정 가능**
 // string, number, boolean, null, undefined, bigint, [], {} 등을 타입으로 지정할 수 있음
 let 이름: string = "lee";
@@ -55,3 +56,4 @@ class User {
         this.name = name;
     }
 }
+```
